@@ -236,7 +236,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v5
         with:
-          images: luispuc/example-voting-app,ghcr.io/luispuc/example-voting-app
+          images: luispuc/example-voting-app,ghcr.io/jluispuc/example-voting-app
           flavor: |
             latest=false
           tags: |
